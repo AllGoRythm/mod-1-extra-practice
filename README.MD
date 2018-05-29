@@ -1,11 +1,11 @@
 
-##Passenger
-###Attributes
+## Passenger
+### Attributes
 * Name
 * Age (integer)
 * Destination
 
-###Methods
+### Methods
 * Passenger.all
 	- should return all of the passenger instances
 * Passenger.find_by_name(name)
@@ -21,13 +21,13 @@
 * Passenger#add_carriage(donkey, speed)
 	- given a donkey object and carriage speed (as an integer), creates a new carriage and associates it with that passenger and donkey. A Carriage belongs to a Passenger and belongs to a Donkey
 
-##Carriage
-###Attributes
+## Carriage
+### Attributes
 * Passenger
 * Donkey
 * Speed (integer)
 
-###Methods
+### Methods
 * Carriage.all
   * returns all of the carriages
 * Carriage#passenger
@@ -37,12 +37,12 @@
 * Carriage#fastest_carriage
   * returns the fasted carriage
 
-##Donkey
+## Donkey
 * Name
 * Weight (integer)
 * Friendly (boolean)
 
-###Methods
+### Methods
 * Donkey.all
   * returns an array of all donkeys
 * Donkey.find_by_name(name)
